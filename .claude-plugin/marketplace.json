@@ -1,18 +1,29 @@
 {
   "name": "linkio",
-  "owner": { "name": "Linkio", "url": "https://www.linkio.com" },
+  "owner": {
+    "name": "Linkio",
+    "url": "https://www.linkio.com"
+  },
   "metadata": {
-    "description": "Linkio for Claude Code: find guest post sites, plan links, write and place articles, track publication, all through your own Linkio account.",
+    "description": "Linkio: link building agent for Claude Code. Find guest post sites, plan links, write and place articles, track backlinks, through your own Linkio account.",
     "version": "0.22.0"
   },
   "plugins": [
     {
       "name": "linkio",
       "source": "./",
-      "description": "The Linkio MCP tools plus the client-agent playbook. Needs LINKIO_API_KEY (https://www.linkio.com/account/api-keys).",
+      "description": "The Linkio link building agent: MCP tools plus the client-agent playbook. Needs LINKIO_API_KEY (https://www.linkio.com/account/api-keys).",
       "version": "0.22.0",
       "category": "seo",
-      "keywords": ["seo", "link building", "guest posts", "backlinks", "mcp"]
+      "keywords": [
+        "link building agent",
+        "link building",
+        "seo",
+        "guest posts",
+        "backlinks",
+        "outreach",
+        "mcp"
+      ]
     }
   ]
 }
