@@ -11,8 +11,12 @@ messages anyone without your yes.
 1. Make an API key at https://www.linkio.com/account/api-keys (self-serve accounts: full access; managed
    accounts: read-only).
 2. Put it in your shell: `export LINKIO_API_KEY=acc_...` (or in the environment Claude Code runs in).
-3. Add the plugin. From a checkout of this folder: `claude --plugin-dir ./linkio` (a marketplace listing
-   follows once this is published; then it is `claude plugin install linkio`).
+3. Add the plugin:
+   ```
+   claude plugin marketplace add ajaypag/linkio-claude-plugin
+   claude plugin install linkio@linkio
+   ```
+   (or, from a checkout of this folder, `claude --plugin-dir ./linkio`).
 4. Start Claude Code in any folder and say what you sell: "I run https://example.com, I want links to my
    pricing page." The agent takes it from there.
 
@@ -33,4 +37,4 @@ https://www.linkio.com/account/ai-keys.
 
 ## First job in five minutes
 
-See `docs/05-reference/first-job-in-5-minutes.md` in the Linkio repo.
+See [FIRST-JOB.md](./FIRST-JOB.md).

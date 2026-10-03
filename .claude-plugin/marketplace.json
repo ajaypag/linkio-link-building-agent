@@ -1,0 +1,18 @@
+{
+  "name": "linkio",
+  "owner": { "name": "Linkio", "url": "https://www.linkio.com" },
+  "metadata": {
+    "description": "Linkio for Claude Code: find guest post sites, plan links, write and place articles, track publication, all through your own Linkio account.",
+    "version": "0.22.0"
+  },
+  "plugins": [
+    {
+      "name": "linkio",
+      "source": "./",
+      "description": "The Linkio MCP tools plus the client-agent playbook. Needs LINKIO_API_KEY (https://www.linkio.com/account/api-keys).",
+      "version": "0.22.0",
+      "category": "seo",
+      "keywords": ["seo", "link building", "guest posts", "backlinks", "mcp"]
+    }
+  ]
+}
