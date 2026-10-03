@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "linkio": {
+      "type": "http",
+      "url": "https://mcp.linkio.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LINKIO_API_KEY}"
+      }
+    }
+  }
+}

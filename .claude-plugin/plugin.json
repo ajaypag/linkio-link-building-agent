@@ -1,0 +1,8 @@
+{
+  "name": "linkio",
+  "version": "0.21.0",
+  "description": "Linkio for Claude Code: find guest post sites, plan links, write and place articles, track publication, all through your own Linkio account. Brings the Linkio MCP tools and the client-agent playbook.",
+  "author": { "name": "Linkio", "url": "https://www.linkio.com" },
+  "homepage": "https://www.linkio.com/account/api-keys",
+  "keywords": ["seo", "link building", "guest posts", "backlinks", "mcp"]
+}
