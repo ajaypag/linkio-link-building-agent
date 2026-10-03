@@ -13,7 +13,7 @@ messages anyone without your yes.
 2. Put it in your shell: `export LINKIO_API_KEY=acc_...` (or in the environment Claude Code runs in).
 3. Add the plugin:
    ```
-   claude plugin marketplace add ajaypag/linkio-claude-plugin
+   claude plugin marketplace add ajaypag/linkio-for-claude-code
    claude plugin install linkio@linkio
    ```
    (or, from a checkout of this folder, `claude --plugin-dir ./linkio`).
