@@ -24,6 +24,11 @@ messages anyone without your yes.
    allow the whole `linkio` server in `/permissions`). Nothing is paid or sent by that prompt; the agent
    still asks before any paid step.
 
+## Claude.ai or ChatGPT instead of Claude Code?
+No plugin and no key. Add `https://mcp.linkio.com/mcp` as a custom connector (Claude.ai: Customize → Connectors
+→ Add → Add custom connector; ChatGPT: Plugins → Add → Create custom MCP server, Authentication: OAuth) and sign in
+with your Linkio email and password. The same tools and the same rules apply.
+
 ## What it costs
 
 Nothing for the plugin. Linkio meters the steps that do work: site search 0.25c a site after the first 100

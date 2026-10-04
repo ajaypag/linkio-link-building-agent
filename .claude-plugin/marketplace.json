@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Linkio: link building agent for Claude Code. Find guest post sites, plan links, write and place articles, track backlinks, through your own Linkio account.",
-    "version": "0.23.0"
+    "version": "0.23.1"
   },
   "plugins": [
     {
       "name": "linkio",
       "source": "./",
       "description": "The Linkio link building agent: MCP tools plus the client-agent playbook. Needs LINKIO_API_KEY (https://www.linkio.com/account/api-keys).",
-      "version": "0.23.0",
+      "version": "0.23.1",
       "category": "seo",
       "keywords": [
         "link building agent",
