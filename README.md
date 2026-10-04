@@ -10,7 +10,8 @@ messages anyone without your yes.
 
 1. Make an API key at https://www.linkio.com/account/api-keys (self-serve accounts: full access; managed
    accounts: read-only).
-2. Put it in your shell: `export LINKIO_API_KEY=acc_...` (or in the environment Claude Code runs in).
+2. Put it in your shell before you start Claude Code: `export LINKIO_API_KEY=acc_...` (Claude Code reads it
+   at start; if the agent says it has no Linkio tools, the key was not in that environment).
 3. Add the plugin:
    ```
    claude plugin marketplace add ajaypag/linkio-link-building-agent
@@ -19,6 +20,9 @@ messages anyone without your yes.
    (or, from a checkout of this folder, `claude --plugin-dir ./linkio`).
 4. Start Claude Code in any folder and say what you sell: "I run https://example.com, I want links to my
    pricing page." The agent takes it from there.
+5. The first time a Linkio tool runs, Claude Code asks you to allow it — choose Allow (once per tool, or
+   allow the whole `linkio` server in `/permissions`). Nothing is paid or sent by that prompt; the agent
+   still asks before any paid step.
 
 ## What it costs
 

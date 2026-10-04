@@ -1,6 +1,6 @@
 {
   "name": "linkio",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Linkio: link building agent for Claude Code. Finds guest post sites with real numbers, plans links, writes and places articles, tracks backlinks and what the month cost, all through your own Linkio account. Brings the Linkio MCP tools and the client-agent playbook.",
   "author": {
     "name": "Linkio",
